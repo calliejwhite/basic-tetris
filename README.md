@@ -1,0 +1,1 @@
+This is my first game-building project. I am following a YouTube tutorial from freeCodeCamp.org called "Code Tetris: JavaScript Tutorial for Beginners" and do not own any rights to this tutorial. This is a basic Tetris game that I am building from my husband's computer. Thanks for any feedback! -Callie White
