@@ -1,5 +1,38 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(180deg, #bd6a41, #d8d3b3);
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #d8d3b3;
+}
+
+button {
+  background-color: #d8d3b3;
+  color: #bd6a41;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  padding: 5px;
+  width: 150px;
+  box-shadow: 5px 5px 5px #bd6a41;
+}
+
+button:hover {
+  background-color: #bd6a41;
+  color: #d8d3b3;
+  box-shadow: 5px 5px 5px #d8d3b3;
+}
+
 .container {
   display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 .grid {
@@ -7,30 +40,37 @@
   height: 400px;
   display:flex;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-image: linear-gradient(180deg, #d8d3b3, #bd6a41);
+
 }
 
 .grid div {
   height: 20px;
   width: 20px;
+}
 
+.glow {
+  box-shadow: 2px 2px 2px #ecdec9;
 }
 
 .tetromino {
-  background-color: blue;
+  background-color: #a9c3b6;
+
 
 }
 
 .mini-grid {
   margin-left: 50px;
+  padding-top: 150px;
   width: 80px;
   height: 80px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
+
 }
 
 .mini-grid div {
   height: 20px;
   width: 20px;
+  box-shadow: 2px 2px 2px #ecdec9;
 }
